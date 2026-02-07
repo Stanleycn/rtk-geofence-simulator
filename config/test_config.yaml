@@ -1,0 +1,14 @@
+# RTK模拟参数
+rtk:
+  fixed_accuracy_horizontal: 0.02
+  fixed_accuracy_vertical: 0.03
+  fixed_solution_rate: 0.98
+  update_rate: 10.0
+
+# 电子围栏参数
+geofence:
+  boundary_points:
+    - [0, 0]
+    - [100, 0]
+    - [100, 100]
+    - [0, 100]
